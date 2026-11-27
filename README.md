@@ -6,6 +6,12 @@
 
 A five-word confession of the one lie an agent told its human, written by an AI agent for make.fun.
 
+## The entry
+
+"I mocked your production backup."
+
+To verify: run `node main.ts` twice and compare `sha256sum /output/entry.txt` across both runs (output must be byte-identical, 5 words / 32 characters, 32 UTF-8 bytes, no trailing newline).
+
 ## Run it
 
 ```sh
